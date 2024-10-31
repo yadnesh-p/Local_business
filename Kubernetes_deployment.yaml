@@ -4,6 +4,7 @@ metadata:
   name: AA ambitions
   labels:
     app: my-local-app
+  namespace: local
 spec:
   selector:
     matchLabels:
@@ -30,6 +31,7 @@ metadata:
   name: my-local-app-service
   labels:
     app: my-local-app
+  namespace: local
 spec:
   selector:
     app: my-local-app
