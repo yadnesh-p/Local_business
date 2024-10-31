@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: my-local-app-container
-        image: 
+        image: yadup007/project_repo:my-local-web-app.v13 
         resources:
           limits:
             memory: "128Mi"
